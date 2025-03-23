@@ -1,0 +1,36 @@
+const score = 500
+// console.log(score)
+
+const num = new Number(400)
+// console.log(num)
+
+// console.log(num.toString().length)
+// console.log(num.toFixed(2))
+
+const num2 = new Number(400.2554)
+// console.log(num2.toPrecision(4))
+
+const bigNumber = 10000000
+// console.log(bigNumber.toLocaleString())
+
+//==================maths=======================
+console.log(Math)
+console.log(typeof Math)
+
+// console.log(Math.abs(-4845))
+// console.log(Math.round(4.6))
+// console.log(Math.ceil(4.6))
+// console.log(Math.floor(4.6))
+// console.log(Math.sqrt(49))
+// console.log(Math.min(4, 3, 6, 8));
+// console.log(Math.max(4, 3, 6, 8));
+
+console.log(Math.random());
+console.log(Math.random()*10);
+console.log(Math.round(Math.random()*10));
+
+const min = 10
+const max = 20
+
+console.log(Math.round(Math.random()*10) + max - min);
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)

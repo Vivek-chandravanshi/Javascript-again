@@ -34,7 +34,7 @@ const myFunction = function(){
 console.log(typeof anotherId);
 /*
 Return type of variables in JavaScript
-1) Primitive Datatypes
+1) Primitive Datatypes // value => stack
        Number => number
        String  => string
        Boolean  => boolean
@@ -43,7 +43,7 @@ Return type of variables in JavaScript
        Symbol  =>  symbol
        BigInt  =>  bigint
 
-2) Non-primitive Datatypes
+2) Non-primitive Datatypes  // reference => heap
        Arrays  =>  object
        Function  =>  function
        Object  =>  object
